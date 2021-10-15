@@ -71,10 +71,40 @@ body{
 
 #main-footer{
 	background:#000;
+    position: relative;
 	color: #fff;
 	text-align: center;
 	padding:20px;
 	mask-type:40px;
+	clear: both;
+}
+
+#Datedecontact{
+	border-color: transparent;
+	text-decoration:none;
+	font-size:15px;
+	list-style:none;
+    color:#000;
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing:border-box;
+}
+
+#Datedecontact ul:hover{
+	font-size:20px;
+    color:red;
+	
+}
+
+#Datedecontact ul{
+	padding:0;
+	list-style:square;
+	list-style:none;
+
+}
+
+	
 }
 @media(max-width:600px){
 	#main{
@@ -86,6 +116,17 @@ body{
 		width:100%;
 		float:none;
 	}
+}
+
+
+a{
+	font-size: 20px;
+	text-decoration:none;
+	color:#000;
+}
+
+a:hover{
+	color:red;
 }
 
 
